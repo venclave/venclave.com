@@ -1,5 +1,5 @@
-venclave.be
-===========
+venclave.com
+============
 
 This is the repository that builds the static website for [venclave.com](https://venclave.com/) using [hugo](https://gohugo.io/).
 
