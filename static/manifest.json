@@ -1,0 +1,10 @@
+{
+    "short_name": "venclave",
+    "name": "venclave",
+    "icons": ["/img/icon.svg"],
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#3a9dc2",
+    "theme_color": "#3a9dc2"
+  }

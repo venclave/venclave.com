@@ -1,0 +1,45 @@
+<!-- ##### Footer Area Start ##### -->
+<div class="footer-content-area mt-0">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="footer-copywrite-info">
+                    <!-- Copywrite -->
+                    <div class="copywrite_text fadeInUp" data-wow-delay="0.2s">
+                        <div class="footer-logo">
+                            <img src="/img/logo.svg" alt="logo mr-2">  
+                            <span class="text-white font-weight-bold">
+                            venclave
+                            </span>
+                        </div>
+                        <p class="">
+                        venclave brings expert security services and appropriate solutions to your company to make cybersecurity a realistic goal for the whole organisation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 pull-right">
+                <div class="contact_info_area d-sm-flex justify-content-between pull-right">
+                    <div class="contact_info mt-s pull-right">
+                        <h5>CONTACT US</h5>
+                        <p><strong>name: </strong> venclave bvba</p>
+                        <p><strong>email: </strong> hello@venclave.com</p>
+                        <p><strong>vat: </strong> BE0682869409</p>
+                        <p><strong>bank: </strong> BE25751208864682</p>
+                        <p><strong>address: </strong><br/> Dr. De Biestraat 22, 2250 Olen, Belgium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ $jsQuery := resources.Get "js/jquery.js" }}
+    {{ $jsPopper := resources.Get "js/popper.js" }}
+    {{ $jsBootstrap := resources.Get "js/bootstrap.js" }}
+    {{ $jsPlugins := resources.Get "js/plugins.js" }}
+    {{ $jsScript := resources.Get "js/script.js" }}
+    {{ $jsBundle := slice $jsQuery $jsPopper $jsBootstrap $jsPlugins $jsScript | resources.Concat "js/bundle.js" | resources.Minify | fingerprint }}
+        
+</div>
+<!-- ##### Footer Area End ##### -->
