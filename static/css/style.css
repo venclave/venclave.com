@@ -44,21 +44,6 @@
   Import All Css
 ====================================================================
 
-***/
-
-@import 'https://soscar.netlify.app/css/bootstrap.min.css';
-@import 'https://soscar.netlify.app/css/animate.css';
-@import 'https://soscar.netlify.app/css/classy-nav.min.css';
-@import 'https://soscar.netlify.app/css/dzsparallaxer.css';
-@import 'https://soscar.netlify.app/css/owl.carousel.min.css';
-@import 'https://soscar.netlify.app/css/magnific-popup.css';
-@import 'https://soscar.netlify.app/css/animated-headline.css';
-@import 'https://soscar.netlify.app/css/font-awesome.min.css';
-@import 'https://soscar.netlify.app/css/font-icons.css';
-@import 'https://soscar.netlify.app/css/cryptocoins.css';
-@import 'https://soscar.netlify.app/css/themify-icons.css';
-
-/*** 
 
 ====================================================================
   General css style
@@ -156,7 +141,7 @@ ol {
     transform: translateX(-50%);
     width: 90px;
     height: 90px;
-    background: url(https://soscar.netlify.app/img/core-img/shape1.png) no-repeat;
+    background: url(/img/core-img/shape1.png) no-repeat;
 }
 
 #preloader {
@@ -406,16 +391,16 @@ ol {
     transform: translateX(-50%);
     height: 150px;
     width: 150px;
-    background: url(https://soscar.netlify.app/img/core-img/shape1.png) no-repeat;
+    background: url(/img/core-img/shape1.png) no-repeat;
     background-size: contain;
 }
 .scew-bg{
-    background: url(https://soscar.netlify.app/img/svg/bg-header1.svg) no-repeat;
+    background: url(/img/svg/bg-header1.svg) no-repeat;
     background-size: cover
     
 }
 .travel-bg{
-    background: url(https://soscar.netlify.app/img//bg-img/travel-bg.png) no-repeat;
+    background: url(/img//bg-img/travel-bg.png) no-repeat;
     background-size: cover
     
 }
@@ -691,7 +676,7 @@ ol {
     margin: 0 auto;
 }
 .client-logo {
-    background: url(https://soscar.netlify.app/img/svg/diamond-shape.svg) center no-repeat;
+    background: url(/img/svg/diamond-shape.svg) center no-repeat;
     background-size: cover;
     display: -ms-flexbox;
     display: flex;
@@ -822,7 +807,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .hero-section{
     position: relative;
     min-height: 700px;
-    background: url('https://soscar.netlify.app/img/bg-img/header2.jpg') no-repeat bottom center;
+    background: url('/img/bg-img/header2.jpg') no-repeat bottom center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -832,37 +817,37 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background: none;
 }
 .hero-section.main-page{
-    background: url('https://soscar.netlify.app/img/bg-img/header4.png') no-repeat bottom center;
+    background: url('/img/bg-img/header4.png') no-repeat bottom center;
     background-size: cover
 }
 .hero-section.demo{
-    background: url('https://soscar.netlify.app/img/bg-img/about-sec.jpg') no-repeat bottom center;
+    background: url('/img/bg-img/about-sec.jpg') no-repeat bottom center;
     background-size: cover
 }
 .hero-section.not{
-    background: url('https://soscar.netlify.app/img/bg-img/header5.jpg') no-repeat bottom center;
+    background: url('/img/bg-img/header5.jpg') no-repeat bottom center;
 }
 
 .hero-section.fuel{
-    background: url('https://soscar.netlify.app/img/bg-img/header2.png') no-repeat bottom center;
+    background: url('/img/bg-img/header2.png') no-repeat bottom center;
     background-size: cover;
     padding-top: 60px;
     padding-bottom: 565px;
 }
 .hero-section.ai1{
-    background: url('https://soscar.netlify.app/img/bg-img/ai1.png') no-repeat center;
+    background: url('/img/bg-img/ai1.png') no-repeat center;
 }
 .hero-section.ai2{
-    background: url('https://soscar.netlify.app/img/bg-img/ai2.png') no-repeat center;
+    background: url('/img/bg-img/ai2.png') no-repeat center;
     background-size: cover;
 }
 .hero-section.ai3{
-    background: url('https://soscar.netlify.app/img/bg-img/ai3.png') no-repeat top center;
+    background: url('/img/bg-img/ai3.png') no-repeat top center;
     background-size: cover;
 }
 
 .hero-section.ai4{
-    background: url('https://soscar.netlify.app/img/bg-img/ai4.png') no-repeat top center;
+    background: url('/img/bg-img/ai4.png') no-repeat top center;
     background-size: cover;
 }
 @media(max-width: 992px){
@@ -875,7 +860,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background: #f6f4ff
 }
 .hero-section.overlayed{
-    background: url('https://soscar.netlify.app/img/bg-img/h-sec.jpg') no-repeat bottom center;
+    background: url('/img/bg-img/h-sec.jpg') no-repeat bottom center;
     background-size: cover;
 }
 .overlayed:before{
@@ -935,7 +920,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     position: absolute;
     bottom: 0;
     left: 0;
-    background: url(https://soscar.netlify.app/img/core-img/demo-before.png) no-repeat;
+    background: url(/img/core-img/demo-before.png) no-repeat;
     background-size: cover;
 }
 .hero-section.curved-section.not:after{
@@ -1041,29 +1026,29 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     }
 }
 .hero-content.with-after{
-    background: url('https://soscar.netlify.app/img/svg/bg_hero.svg') no-repeat center right;
+    background: url('/img/svg/bg_hero.svg') no-repeat center right;
 }
 .hero-content.with-after-before{
-    background-image: url(https://soscar.netlify.app/img/svg/bg_hero1.svg),url(https://soscar.netlify.app/img/svg/bg_hero2.svg);
+    background-image: url(/img/svg/bg_hero1.svg),url(/img/svg/bg_hero2.svg);
     background-position: right top,left bottom;
     background-size: auto;
     background-repeat: no-repeat;
 }
 .hero-content.creative{
-    background: url('https://soscar.netlify.app/img/bg-img/header3.png') no-repeat center right;
+    background: url('/img/bg-img/header3.png') no-repeat center right;
     background-size: cover
 }
 .hero-content.pizza {
-    background: url(https://soscar.netlify.app/img/bg-img/banner-bg.jpg) no-repeat right top;
+    background: url(/img/bg-img/banner-bg.jpg) no-repeat right top;
 }
 .hero-content.tringle{
-    background: url('https://soscar.netlify.app/img/bg-img/tringle.png') no-repeat center right;
+    background: url('/img/bg-img/tringle.png') no-repeat center right;
 }
 .hero-content.scew{
-    background: url('https://soscar.netlify.app/img/bg-img/header2.png') no-repeat center top;
+    background: url('/img/bg-img/header2.png') no-repeat center top;
 }
 .hero-content.trans{
-    background: url('https://soscar.netlify.app/img/bg-img/trans.png') no-repeat right top;
+    background: url('/img/bg-img/trans.png') no-repeat right top;
 }
 .hero-content.transparent{
     background: transparent;
@@ -1158,33 +1143,33 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 
 .main-ilustration{
     position: relative;
-    background: url(https://soscar.netlify.app/img/core-img/hero-bg.png) no-repeat center 65%;
+    background: url(/img/core-img/hero-bg.png) no-repeat center 65%;
     height: 100vh;
     background-size: contain;
 }
 .main-ilustration-2{
     position: relative;
-    background: url(https://soscar.netlify.app/img/core-img/robot-1.png) no-repeat center bottom;
+    background: url(/img/core-img/robot-1.png) no-repeat center bottom;
     height: 100vh;
     bottom: 0;
     background-size: contain;
 }
 .main-ilustration-3{
     position: relative;
-    background: url(https://soscar.netlify.app/img/core-img/robot-2.png) no-repeat center bottom;
+    background: url(/img/core-img/robot-2.png) no-repeat center bottom;
     height: 100vh;
     bottom: 0;
     background-size: cover;
 }
 .main-ilustration-4{
     position: relative;
-    background: url(https://soscar.netlify.app/img/svg/head-bg-1.svg) no-repeat center 65%;
+    background: url(/img/svg/head-bg-1.svg) no-repeat center 65%;
     height: 100vh;
     background-size: cover;
 }
 .main-ilustration-5{
     position: relative;
-    background: url(https://soscar.netlify.app/img/bg-img/header-1.png) no-repeat center 65%;
+    background: url(/img/bg-img/header-1.png) no-repeat center 65%;
     height: 100vh;
     background-size: 80%;
 }
@@ -1209,7 +1194,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     position: absolute;
     width: 150px;
     height: 150px;
-    background: url(https://soscar.netlify.app/img/core-img/video-btn-bg.png) no-repeat center center;
+    background: url(/img/core-img/video-btn-bg.png) no-repeat center center;
     background-size: cover;
     top: 50%;
     left: 50%;
@@ -1220,13 +1205,13 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     color: #2ea9fd;
 }
 .bub-right{
-    background: url('https://soscar.netlify.app/img/svg/bg_hero.svg') no-repeat center right;
+    background: url('/img/svg/bg_hero.svg') no-repeat center right;
 }
 .bub-left{
-    background: url('https://soscar.netlify.app/img/svg/benefits-bg.svg') no-repeat center left;
+    background: url('/img/svg/benefits-bg.svg') no-repeat center left;
 }
 .hex-pat-1{
-    background: url('https://soscar.netlify.app/img/svg/hex-pattern.svg') no-repeat center left;
+    background: url('/img/svg/hex-pattern.svg') no-repeat center left;
 }
 .hex-pat-2{
     position: relative;
@@ -1250,31 +1235,31 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 
 .main-ilustration-6{
     position: relative;
-    background: url(https://soscar.netlify.app/img/core-img/about-1.png) no-repeat center 65%;
+    background: url(/img/core-img/about-1.png) no-repeat center 65%;
     height: 100vh;
     background-size: 100%;
 }
 .main-ilustration-7{
     position: relative;
-    background: url(https://soscar.netlify.app/img/core-img/faq.png) no-repeat center 65%;
+    background: url(/img/core-img/faq.png) no-repeat center 65%;
     height: 100vh;
     background-size: 80%;
 }
 .main-ilustration-8{
     position: relative;
-    background: url(https://soscar.netlify.app/img/core-img/saas4.png) no-repeat center 65%;
+    background: url(/img/core-img/saas4.png) no-repeat center 65%;
     height: 100vh;
     background-size: 100%;
 }
 .main-ilustration-9{
     position: relative;
-    background: url(https://soscar.netlify.app/img/core-img/travel.png) no-repeat center 65%;
+    background: url(/img/core-img/travel.png) no-repeat center 65%;
     height: 100vh;
     background-size: 100%;
 }
 .main-ilustration-10{
     position: relative;
-    background: url(https://soscar.netlify.app/img/core-img/pizza-header.png) no-repeat center 65%;
+    background: url(/img/core-img/pizza-header.png) no-repeat center 65%;
     height: 100vh;
     background-size: 80%;
 }
@@ -1419,7 +1404,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
         top: 20%;
         width: 400px;
         height: 400px;
-        background: url('https://soscar.netlify.app/img/svg/hex-pattern2.svg') no-repeat center right;
+        background: url('/img/svg/hex-pattern2.svg') no-repeat center right;
     }
 }
 
@@ -1556,7 +1541,7 @@ p.artficial:before{
 }
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('https://soscar.netlify.app/css/video/video-frame.PNG') center center / cover no-repeat;
+    background: url('/css/video/video-frame.PNG') center center / cover no-repeat;
   }
    .welcome_area.video .desc{
         max-width: 80%;
@@ -1614,17 +1599,17 @@ p.artficial:before{
 }
 /* ##### About Us Area ##### */
 .double-bg{
-    background: url('https://soscar.netlify.app/img/svg/section-bg.svg') no-repeat center left;
+    background: url('/img/svg/section-bg.svg') no-repeat center left;
     background-size: contain
 }
 .double-bg-1{
     position: relative;
-    background: url('https://soscar.netlify.app/img/bg-img/section-bg.png') no-repeat top right;
+    background: url('/img/bg-img/section-bg.png') no-repeat top right;
     background-size: cover
 }
 .double-bg-2{
     position: relative;
-    background: url('https://soscar.netlify.app/img/bg-img/header6.jpg') no-repeat top right;
+    background: url('/img/bg-img/header6.jpg') no-repeat top right;
     background-size: cover
 }
 .about-us-area {
@@ -1632,7 +1617,7 @@ p.artficial:before{
     z-index: 1;
 }
 .about-us-area.bg{
-    background: url('https://soscar.netlify.app/img/bg-img/about-sec.jpg') no-repeat top right;
+    background: url('/img/bg-img/about-sec.jpg') no-repeat top right;
     background-size: cover
 }
 .who-we-contant h4 {
@@ -1641,7 +1626,7 @@ p.artficial:before{
     font-weight: 600
 }
 .trial-bg{
-    background: url("https://soscar.netlify.app/img/bg-img/trial-bg.png") center no-repeat;
+    background: url("/img/bg-img/trial-bg.png") center no-repeat;
     background-size: cover;
 }
 .our-mission-area {
@@ -1695,7 +1680,7 @@ p.artficial:before{
     position: relative;
     z-index: 1;
     height: 427px;
-    background: url(https://soscar.netlify.app/img/svg/ai-illustration.svg) no-repeat;
+    background: url(/img/svg/ai-illustration.svg) no-repeat;
     background-size: 137%;
     background-position: center center;
 }
@@ -1831,7 +1816,7 @@ p.artficial:before{
   padding-left:70px;
 }
 .bg-ring{
-    background: url(https://soscar.netlify.app/img/bg-img/bread-bg.png) no-repeat center center;
+    background: url(/img/bg-img/bread-bg.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -2204,7 +2189,7 @@ p.artficial:before{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: url(https://soscar.netlify.app/img/svg/checkmark.svg) 50% no-repeat;
+    background: url(/img/svg/checkmark.svg) 50% no-repeat;
     background-size: contain;
     width: 31px;
     height: 23px;
@@ -3161,7 +3146,7 @@ p.artficial:before{
     border: 1px solid #ddd;
     margin: 0 15px;
     padding: 30px 20px;
-    background: url(https://soscar.netlify.app/img/core-img/cards-bg.png), #fff;
+    background: url(/img/core-img/cards-bg.png), #fff;
 }
 .testimonial-description {
     position: relative;
@@ -3291,7 +3276,7 @@ p.artficial:before{
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: url('https://soscar.netlify.app/img/core-img/wave-shap.png') no-repeat center center;
+    background: url('/img/core-img/wave-shap.png') no-repeat center center;
     background-size: contain;
     opacity: .5
 }
@@ -3879,7 +3864,7 @@ textarea:required {
 
 /* ##### Footer Area ##### */
 .footer-bg{
-    background: url(https://soscar.netlify.app/img/bg-img/footer-bg.png) top center;
+    background: url(/img/bg-img/footer-bg.png) top center;
     background-size: cover
 }
 .footer-area {
@@ -3984,7 +3969,7 @@ textarea:required {
     top: 0;
     left: 0;
     z-index: 10;
-    background: url("https://soscar.netlify.app/img/bg-img/sub_bg.png") center no-repeat;
+    background: url("/img/bg-img/sub_bg.png") center no-repeat;
     background-size: cover;
 }
 
@@ -4321,7 +4306,7 @@ textarea:required {
 */
 .download{
     position: relative;
-    background-image: url(https://soscar.netlify.app/img/svg/download-bg2.svg), url(https://soscar.netlify.app/img/svg/download-bg3.svg), radial-gradient(695.86px at 60.13% 22.68%, rgb(140, 183, 255) 0%, rgb(96, 153, 250) 100%);
+    background-image: url(/img/svg/download-bg2.svg), url(/img/svg/download-bg3.svg), radial-gradient(695.86px at 60.13% 22.68%, rgb(140, 183, 255) 0%, rgb(96, 153, 250) 100%);
     background-size:  894px 645px, 1005px 663px, 100%;
     box-shadow: rgba(6, 28, 66, 0.1) 0px 20px 40px;
     padding: 100px 0px;
@@ -4331,7 +4316,7 @@ textarea:required {
 @media (max-width: 992px){
     .download {
     margin-top: 0px;
-        background-image:  url(https://soscar.netlify.app/img/svg/download-bg2.svg), radial-gradient(695.86px at 60.13% 22.68%, rgb(140, 183, 255) 0%, rgb(96, 153, 250) 100%);
+        background-image:  url(/img/svg/download-bg2.svg), radial-gradient(695.86px at 60.13% 22.68%, rgb(140, 183, 255) 0%, rgb(96, 153, 250) 100%);
         background-size: 100%, 100%;
         padding: 100px 0px;
         background-position: 50% 100%, center center;
@@ -4696,7 +4681,7 @@ textarea:required {
     right: 15px;
     width: 27px;
     height: 34px;
-    background: url(https://soscar.netlify.app/img/svg/pdf.svg) 50% no-repeat;
+    background: url(/img/svg/pdf.svg) 50% no-repeat;
     background-size: contain;
 }
 .doc-element:after {
@@ -4710,7 +4695,7 @@ textarea:required {
     right: 15px;
     width: 27px;
     height: 30px;
-    background: url(https://soscar.netlify.app/img/svg/view.svg) 50% no-repeat;
+    background: url(/img/svg/view.svg) 50% no-repeat;
     background-size: contain;
     opacity: 0;
 }
@@ -5021,7 +5006,7 @@ body.light-version {
 .light-version .service_single_content {
     border-radius: 10px;
     background-color: #fff;
-    background-image: url(https://soscar.netlify.app/img/core-img/cards-bg.png);
+    background-image: url(/img/core-img/cards-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
