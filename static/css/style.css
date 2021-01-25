@@ -44,6 +44,20 @@
   Import All Css
 ====================================================================
 
+***/
+
+@import '/css/animate.css';
+@import '/css/classy-nav.min.css';
+@import '/css/dzsparallaxer.css';
+@import '/css/owl.carousel.min.css';
+@import '/css/magnific-popup.css';
+@import '/css/animated-headline.css';
+@import '/css/font-awesome.min.css';
+@import '/css/font-icons.css';
+@import '/css/cryptocoins.css';
+@import '/css/themify-icons.css';
+
+/*** 
 
 ====================================================================
   General css style
@@ -141,7 +155,7 @@ ol {
     transform: translateX(-50%);
     width: 90px;
     height: 90px;
-    background: url(/img/core-img/shape1.png) no-repeat;
+    background: url(/img/shape1.png) no-repeat;
 }
 
 #preloader {
@@ -391,7 +405,7 @@ ol {
     transform: translateX(-50%);
     height: 150px;
     width: 150px;
-    background: url(/img/core-img/shape1.png) no-repeat;
+    background: url(/img/shape1.png) no-repeat;
     background-size: contain;
 }
 .scew-bg{
@@ -807,7 +821,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .hero-section{
     position: relative;
     min-height: 700px;
-    background: url('/img/bg-img/header2.jpg') no-repeat bottom center;
+    background: url('/img/header2.jpg') no-repeat bottom center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -817,37 +831,37 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background: none;
 }
 .hero-section.main-page{
-    background: url('/img/bg-img/header4.png') no-repeat bottom center;
+    background: url('/img/header4.png') no-repeat bottom center;
     background-size: cover
 }
 .hero-section.demo{
-    background: url('/img/bg-img/about-sec.jpg') no-repeat bottom center;
+    background: url('/img/about-sec.jpg') no-repeat bottom center;
     background-size: cover
 }
 .hero-section.not{
-    background: url('/img/bg-img/header5.jpg') no-repeat bottom center;
+    background: url('/img/header5.jpg') no-repeat bottom center;
 }
 
 .hero-section.fuel{
-    background: url('/img/bg-img/header2.png') no-repeat bottom center;
+    background: url('/img/header2.png') no-repeat bottom center;
     background-size: cover;
     padding-top: 60px;
     padding-bottom: 565px;
 }
 .hero-section.ai1{
-    background: url('/img/bg-img/ai1.png') no-repeat center;
+    background: url('/img/ai1.png') no-repeat center;
 }
 .hero-section.ai2{
-    background: url('/img/bg-img/ai2.png') no-repeat center;
+    background: url('/img/ai2.png') no-repeat center;
     background-size: cover;
 }
 .hero-section.ai3{
-    background: url('/img/bg-img/ai3.png') no-repeat top center;
+    background: url('/img/ai3.png') no-repeat top center;
     background-size: cover;
 }
 
 .hero-section.ai4{
-    background: url('/img/bg-img/ai4.png') no-repeat top center;
+    background: url('/img/ai4.png') no-repeat top center;
     background-size: cover;
 }
 @media(max-width: 992px){
@@ -860,7 +874,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background: #f6f4ff
 }
 .hero-section.overlayed{
-    background: url('/img/bg-img/h-sec.jpg') no-repeat bottom center;
+    background: url('/img/h-sec.jpg') no-repeat bottom center;
     background-size: cover;
 }
 .overlayed:before{
@@ -920,7 +934,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     position: absolute;
     bottom: 0;
     left: 0;
-    background: url(/img/core-img/demo-before.png) no-repeat;
+    background: url(/img/demo-before.png) no-repeat;
     background-size: cover;
 }
 .hero-section.curved-section.not:after{
@@ -1035,20 +1049,20 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background-repeat: no-repeat;
 }
 .hero-content.creative{
-    background: url('/img/bg-img/header3.png') no-repeat center right;
+    background: url('/img/header3.png') no-repeat center right;
     background-size: cover
 }
 .hero-content.pizza {
-    background: url(/img/bg-img/banner-bg.jpg) no-repeat right top;
+    background: url(/img/banner-bg.jpg) no-repeat right top;
 }
 .hero-content.tringle{
-    background: url('/img/bg-img/tringle.png') no-repeat center right;
+    background: url('/img/tringle.png') no-repeat center right;
 }
 .hero-content.scew{
-    background: url('/img/bg-img/header2.png') no-repeat center top;
+    background: url('/img/header2.png') no-repeat center top;
 }
 .hero-content.trans{
-    background: url('/img/bg-img/trans.png') no-repeat right top;
+    background: url('/img/trans.png') no-repeat right top;
 }
 .hero-content.transparent{
     background: transparent;
@@ -1143,20 +1157,20 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 
 .main-ilustration{
     position: relative;
-    background: url(/img/core-img/hero-bg.png) no-repeat center 65%;
+    background: url(/img/hero-bg.png) no-repeat center 65%;
     height: 100vh;
     background-size: contain;
 }
 .main-ilustration-2{
     position: relative;
-    background: url(/img/core-img/robot-1.png) no-repeat center bottom;
+    background: url(/img/robot-1.png) no-repeat center bottom;
     height: 100vh;
     bottom: 0;
     background-size: contain;
 }
 .main-ilustration-3{
     position: relative;
-    background: url(/img/core-img/robot-2.png) no-repeat center bottom;
+    background: url(/img/robot-2.png) no-repeat center bottom;
     height: 100vh;
     bottom: 0;
     background-size: cover;
@@ -1169,7 +1183,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 .main-ilustration-5{
     position: relative;
-    background: url(/img/bg-img/header-1.png) no-repeat center 65%;
+    background: url(/img/header-1.png) no-repeat center 65%;
     height: 100vh;
     background-size: 80%;
 }
@@ -1194,7 +1208,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     position: absolute;
     width: 150px;
     height: 150px;
-    background: url(/img/core-img/video-btn-bg.png) no-repeat center center;
+    background: url(/img/video-btn-bg.png) no-repeat center center;
     background-size: cover;
     top: 50%;
     left: 50%;
@@ -1235,31 +1249,31 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 
 .main-ilustration-6{
     position: relative;
-    background: url(/img/core-img/about-1.png) no-repeat center 65%;
+    background: url(/img/about-1.png) no-repeat center 65%;
     height: 100vh;
     background-size: 100%;
 }
 .main-ilustration-7{
     position: relative;
-    background: url(/img/core-img/faq.png) no-repeat center 65%;
+    background: url(/img/faq.png) no-repeat center 65%;
     height: 100vh;
     background-size: 80%;
 }
 .main-ilustration-8{
     position: relative;
-    background: url(/img/core-img/saas4.png) no-repeat center 65%;
+    background: url(/img/saas4.png) no-repeat center 65%;
     height: 100vh;
     background-size: 100%;
 }
 .main-ilustration-9{
     position: relative;
-    background: url(/img/core-img/travel.png) no-repeat center 65%;
+    background: url(/img/travel.png) no-repeat center 65%;
     height: 100vh;
     background-size: 100%;
 }
 .main-ilustration-10{
     position: relative;
-    background: url(/img/core-img/pizza-header.png) no-repeat center 65%;
+    background: url(/img/pizza-header.png) no-repeat center 65%;
     height: 100vh;
     background-size: 80%;
 }
@@ -1604,12 +1618,12 @@ p.artficial:before{
 }
 .double-bg-1{
     position: relative;
-    background: url('/img/bg-img/section-bg.png') no-repeat top right;
+    background: url('/img/section-bg.png') no-repeat top right;
     background-size: cover
 }
 .double-bg-2{
     position: relative;
-    background: url('/img/bg-img/header6.jpg') no-repeat top right;
+    background: url('/img/header6.jpg') no-repeat top right;
     background-size: cover
 }
 .about-us-area {
@@ -1617,7 +1631,7 @@ p.artficial:before{
     z-index: 1;
 }
 .about-us-area.bg{
-    background: url('/img/bg-img/about-sec.jpg') no-repeat top right;
+    background: url('/img/about-sec.jpg') no-repeat top right;
     background-size: cover
 }
 .who-we-contant h4 {
@@ -1626,7 +1640,7 @@ p.artficial:before{
     font-weight: 600
 }
 .trial-bg{
-    background: url("/img/bg-img/trial-bg.png") center no-repeat;
+    background: url("/img/trial-bg.png") center no-repeat;
     background-size: cover;
 }
 .our-mission-area {
@@ -1816,7 +1830,7 @@ p.artficial:before{
   padding-left:70px;
 }
 .bg-ring{
-    background: url(/img/bg-img/bread-bg.png) no-repeat center center;
+    background: url(/img/bread-bg.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -3146,7 +3160,7 @@ p.artficial:before{
     border: 1px solid #ddd;
     margin: 0 15px;
     padding: 30px 20px;
-    background: url(/img/core-img/cards-bg.png), #fff;
+    background: url(/img/cards-bg.png), #fff;
 }
 .testimonial-description {
     position: relative;
@@ -3276,7 +3290,7 @@ p.artficial:before{
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: url('/img/core-img/wave-shap.png') no-repeat center center;
+    background: url('/img/wave-shap.png') no-repeat center center;
     background-size: contain;
     opacity: .5
 }
@@ -3864,7 +3878,7 @@ textarea:required {
 
 /* ##### Footer Area ##### */
 .footer-bg{
-    background: url(/img/bg-img/footer-bg.png) top center;
+    background: url(/img/footer-bg.png) top center;
     background-size: cover
 }
 .footer-area {
@@ -3969,7 +3983,7 @@ textarea:required {
     top: 0;
     left: 0;
     z-index: 10;
-    background: url("/img/bg-img/sub_bg.png") center no-repeat;
+    background: url("/img/sub_bg.png") center no-repeat;
     background-size: cover;
 }
 
@@ -5006,7 +5020,7 @@ body.light-version {
 .light-version .service_single_content {
     border-radius: 10px;
     background-color: #fff;
-    background-image: url(/img/core-img/cards-bg.png);
+    background-image: url(/img/cards-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
