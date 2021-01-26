@@ -1,7 +1,7 @@
 {
     "short_name": "venclave",
     "name": "venclave",
-    "icons": ["/img/icon.svg"],
+    "icons": ["/img/logo.svg"],
     "start_url": "/",
     "scope": "/",
     "display": "standalone",

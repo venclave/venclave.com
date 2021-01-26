@@ -37,9 +37,7 @@
     {{ $jsQuery := resources.Get "js/jquery.js" }}
     {{ $jsPopper := resources.Get "js/popper.js" }}
     {{ $jsBootstrap := resources.Get "js/bootstrap.js" }}
-    {{ $jsPlugins := resources.Get "js/plugins.js" }}
-    {{ $jsScript := resources.Get "js/script.js" }}
-    {{ $jsBundle := slice $jsQuery $jsPopper $jsBootstrap $jsPlugins $jsScript | resources.Concat "js/bundle.js" | minify | fingerprint }}
+    {{ $jsBundle := slice $jsQuery $jsPopper $jsBootstrap | resources.Concat "js/bundle.js" | minify | fingerprint }}
     <script type="text/javascript" src="{{ $jsBundle.Permalink }}" integrity="{{ $jsBundle.Data.Integrity }}" crossorigin="anonymous"></script>
 </div>
 <!-- ##### Footer Area End ##### -->
