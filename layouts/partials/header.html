@@ -29,6 +29,6 @@
     {{ $animateCSS := resources.Get "css/animate.css" }}
 	{{ $stylesCSS := resources.Get "css/style.css" }}
     {{ $responsiveCSS := resources.Get "css/responsive.css" }}
-    {{ $cssBundle := slice $bootstrapCSS $animateCSS $stylesCSS $responsiveCSS | resources.Concat "js/bundle.css" | resources.Minify | fingerprint }}
+    {{ $cssBundle := slice $bootstrapCSS $animateCSS $stylesCSS $responsiveCSS | resources.Concat "css/bundle.css" | minify | fingerprint }}
 	<link rel="stylesheet" type="text/css" href="{{ $cssBundle.Permalink }}" integrity="{{ $cssBundle.Data.Integrity }}">
 </head>
